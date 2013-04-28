@@ -12,7 +12,7 @@ import co.gitm.books.view.BooksView;
  *         The Application class is responsible for receiving and routing all
  *         incoming requests from Tomcat. Tomcat knows to send all incoming
  *         requests to this class because it is specified as the main servlet in
- *         web.xml.
+ *         WebContent/WEB-INF/web.xml.
  */
 public class BooksApplication extends Application {
 
