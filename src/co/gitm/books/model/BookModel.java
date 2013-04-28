@@ -44,7 +44,10 @@ public class BookModel extends Model {
 	}
 
 	/**
-	 * @return a list of BookModel object fields. Mostly used by parent class.  
+	 * @return a list of BookModel object fields: I.e. return
+	 * a list of the column names in the "books_books" table in the MySQL database 
+	 * asociated with this application.  
+	 * This method is mostly used by the parent class. 
 	 * @see co.gitm.javango.model.Model#getFields()
 	 */
 	@Override
