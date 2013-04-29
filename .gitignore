@@ -1,5 +1,5 @@
 *.class
-*.properties
+*.PROPERTIES
 
 # Package Files #
 *.jar
