@@ -1,5 +1,6 @@
 *.class
 *.PROPERTIES
+database.xml
 
 # Package Files #
 *.jar

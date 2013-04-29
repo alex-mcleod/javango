@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Rename this file to "database.xml" to use it in an application.
+
+	NOTE: If it appears like Javango is not connecting to your database correctly, and
+	your stacktrace has a message claiming that database.xml cannot be found, then right-click on 
+	your config folder (i.e. the folder containing database.xml) and go to "Build Path">"Use as Source Folder".
+--> 
+
+<config>
+	<!-- Configure MySQL database access details for this application. -->
+    <database>
+    	<servername>localhost</servername>
+    	<user>user</user>
+    	<password>password</password>
+    	<!-- Name of the MySQL database to use.  -->
+    	<name>tablename</name>
+    </database>
+</config>
