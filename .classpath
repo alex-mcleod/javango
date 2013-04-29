@@ -1,89 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="co/gitm/books/config/" kind="src" path="src"/>
-	<classpathentry kind="src" path="src/co/gitm/books/config"/>
+	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.core.runtimeTarget/com.amazonaws.eclipse.elasticbeanstalk.jee.runtime">
 		<attributes>
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.example.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.atom.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.crypto.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.emf.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.fileupload.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.freemarker.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.gwt.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.html.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.httpclient.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.jaas.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.jackson.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.javamail.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.jaxb.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.jaxrs.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.jdbc.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.jibx.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.json.jar">
+	<classpathentry kind="con" path="com.amazonaws.eclipse.sdk.AWS_JAVA_SDK">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.lucene.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.net.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.oauth.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.odata.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.openid.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.rdf.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.rome.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.sdc.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Javango dependencies">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.servlet.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.sip.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.slf4j.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.spring.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.ssl.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.velocity.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.wadl.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.xdb.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.xml.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.ext.xstream.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/Restlet Framework/Edition Java EE/2.1.2/lib/org.restlet.test.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_17/lib/json-simple-1.1.1.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_17/lib/mysql-connector-java-5.1.24/mysql-connector-java-5.1.24-bin.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_17/lib/commons-configuration-1.9/commons-configuration-1.9.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_17/lib/commons-lang-2.4/commons-lang-2.4.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_17/lib/commons-logging-1.1.2/commons-logging-1.1.2.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>

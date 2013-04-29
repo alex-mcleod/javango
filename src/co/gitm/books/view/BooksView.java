@@ -103,12 +103,18 @@ public class BooksView extends View {
 		// is not a properly formatted JSON (ParseException), or if the
 		// postData.getText method
 		// returns an IOException, then return an error message to the user.
+		// NOTE: Had to use multiple catch statements so that application is
+		// compatible with JDK 1.6. 
 		try {
 			newBook = DataObject.instanceFromJson(postData.getText());
-		} catch (ParseException | IOException e) {
+		} catch (ParseException e) {
+			throw new ResourceException(Status.CLIENT_ERROR_NOT_ACCEPTABLE,
+					"Your POST request is malformed. Ensure your JSON is correctly formated.");
+		} catch (IOException e) {
 			throw new ResourceException(Status.CLIENT_ERROR_NOT_ACCEPTABLE,
 					"Your POST request is malformed. Ensure your JSON is correctly formated.");
 		}
+	
 		// Try and create a new BookModel object in the database using the
 		// newBook DataObject.
 		// If newBook is not a valid BookModel object, then return error message
