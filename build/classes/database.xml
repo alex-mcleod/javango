@@ -11,7 +11,7 @@
     <database>
     	<servername>localhost</servername>
     	<user>hellodb</user>
-    	<password>mi211alex</password>
+    	<password>hellodb</password>
     	<!-- Name of the MySQL database to use.  -->
     	<name>books</name>
     </database>
