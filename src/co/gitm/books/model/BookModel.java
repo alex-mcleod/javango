@@ -20,7 +20,8 @@ import co.gitm.javango.model.Model;
  */
 public class BookModel extends Model {
 	// This MySqlDataSource instance will hold all BookModel objects. Details for accessing
-	// the database are specified in the co/gitm/books/config/database.xml file. 
+	// the database are specified in the co/gitm/books/config/database.xml file. NOTE This 
+	// is currently not the case, check notes in sample_database.xml. 
 	DataSource db = new MySqlDataSource();
 
 	/**

@@ -30,7 +30,7 @@ import co.gitm.javango.data.exceptions.CreateException;
  * 
  *         The configuration details for the MySQL database used by any given
  *         application are specified in the application's config/database.xml
- *         file.
+ *         file. NOTE This is currently not the case, check notes in sample_database.xml
  * 
  */
 public class MySqlDataSource implements DataSource {
@@ -130,11 +130,18 @@ public class MySqlDataSource implements DataSource {
 		Configuration dbConfig = Config.getConfig("database.xml");
 		// Use the JDBC MysqlDataSource class to connect to the database
 		// specified in database.xml.
+		// System.getProperty is used by Elastic Beanstalk environment to connect to db. 
+		String dbName = System.getProperty("RDS_DB_NAME"); //dbConfig.getString("database.name");
+		String userName = System.getProperty("RDS_USERNAME"); //dbConfig.getString("database.user");
+		String password = System.getProperty("RDS_PASSWORD"); //dbConfig.getString("database.password");
+		String serverName = System.getProperty("RDS_HOSTNAME"); //dbConfig.getString("database.servername");
+		String port = System.getProperty("RDS_PORT"); //dbConfig.getString("database.port");
 		MysqlDataSource ds = new MysqlDataSource();
-		ds.setUser(dbConfig.getString("database.user"));
-		ds.setPassword(dbConfig.getString("database.password"));
-		ds.setServerName(dbConfig.getString("database.servername"));
-		ds.setDatabaseName(dbConfig.getString("database.name"));
+		ds.setUser(userName);
+		ds.setPassword(password);
+		ds.setServerName(serverName);
+		ds.setPort(Integer.parseInt(port));
+		ds.setDatabaseName(dbName);
 		// Attempt to get a database connection, throw exception if this fails.
 		try {
 			dbConnection = ds.getConnection();
